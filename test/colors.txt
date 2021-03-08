@@ -87,7 +87,7 @@ darkviolet
 darkorchid
 darkmagenta
 purple
-indigo
+indigoB
 pink
 lightpink
 hotpink
@@ -111,7 +111,6 @@ antiquewhite
 linen
 lavenderblush
 mistyrose
-mistyrose
 gainsboro
 lightgray
 silver
@@ -120,7 +119,7 @@ gray
 dimgray
 lightslategray
 slategray
-darkslategray
+darkslategrayB
 black
 cornsilk
 blanchedalmond
