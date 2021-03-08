@@ -8,6 +8,9 @@
     "testrandom": "node ./test/testRandom.js"
   },
   "author": "Hesh925#1482",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hesh925/DJS-Easy-Color.git"
   "license": "ISC",
   "dependencies": {
     "fs": "0.0.1-security",
