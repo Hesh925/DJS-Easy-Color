@@ -1,5 +1,6 @@
 # DJS-Easy-Color
 [![Node.js CI](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml/badge.svg)](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml)
+[![NPM Publish](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/npm-publish.yml)
 
 # Description
 Makes getting hex codes and RGB values for colors easy.
