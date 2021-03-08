@@ -3,18 +3,31 @@
   "version": "1.0.0",
   "description": "Get easy colors for djs embeds",
   "main": "./src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "testall": "node ./test/test.js",
     "testrandom": "node ./test/testRandom.js"
   },
-  "author": "Hesh925#1482",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hesh925/DJS-Easy-Color.git",
+    "url": "git+https://github.com/Havoc925/DJS-Easy-Color.git"
   },
+  "keywords": [
+    "discordjs",
+    "discord",
+    "embeds"
+  ],
+  "author": "Hesh925#1482",
   "license": "ISC",
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "readline": "^1.3.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Havoc925/DJS-Easy-Color/issues"
+  },
+  "homepage": "https://github.com/Havoc925/DJS-Easy-Color#readme"
 }
