@@ -4,7 +4,7 @@
 # Description
 Makes getting hex codes and RGB values for colors easy.
 
-# Exsample
+# Example
 ```javascript
 const EasyColor = require("djs-easy-color")
 
