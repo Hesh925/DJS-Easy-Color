@@ -1,6 +1,14 @@
 # DJS-Easy-Color
-[![Node.js CI](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml/badge.svg)](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml)
-[![NPM Publish](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/npm-publish.yml)
+<div align="center">
+  <p>
+<a href="https://nodei.co/npm/djs-easy-color/"><img src="https://nodei.co/npm/djs-easy-color.png">
+</p>
+    <br />
+    <p>
+<a href="https://github.com/Havoc925/DJS-Easy-Color"><img src="https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml/badge.svg" /></a>
+<a href="https://github.com/Havoc925/DJS-Easy-Color"><img src="https://badge.fury.io/js/djs-easy-color.svg" /></a>
+  </p>
+</div>
 
 # Description
 Makes getting hex codes and RGB values for colors easy with over 130 colors
