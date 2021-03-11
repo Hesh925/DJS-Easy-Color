@@ -1,6 +1,6 @@
 {
   "name": "djs-easy-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get easy colors for djs embeds",
   "main": "./src/main.js",
   "directories": {

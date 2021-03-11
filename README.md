@@ -3,8 +3,8 @@
 [![NPM Publish](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/npm-publish.yml)
 
 # Description
-Makes getting hex codes and RGB values for colors easy.
-
+Makes getting hex codes and RGB values for colors easy with over 130 colors
+[List of colors](https://github.com/Havoc925/DJS-Easy-Color/blob/master/test/colors.txt) 
 # Example
 ```javascript
 const EasyColor = require("djs-easy-color")
