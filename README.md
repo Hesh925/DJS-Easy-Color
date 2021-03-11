@@ -1,8 +1,13 @@
 # DJS-Easy-Color
 <div align="center">
+  <p>
 <a href="https://nodei.co/npm/djs-easy-color/"><img src="https://nodei.co/npm/djs-easy-color.png">
+</p>
+    <br />
+    <p>
 <a href="https://github.com/Havoc925/DJS-Easy-Color"><img src="https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml/badge.svg" /></a>
 <a href="https://github.com/Havoc925/DJS-Easy-Color"><img src="https://badge.fury.io/js/djs-easy-color.svg" /></a>
+  </p>
 </div>
 
 # Description
