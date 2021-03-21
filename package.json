@@ -6,11 +6,6 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "readline": "^1.3.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "testall": "node ./test/test.js",
     "testrandom": "node ./test/testRandom.js"
