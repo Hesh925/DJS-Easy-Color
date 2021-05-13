@@ -11,15 +11,19 @@
 </div>
 
 # Description
-Makes getting hex codes and RGB values for colors easy with over 130 colors
+Makes getting HEX and RGB values for colors easy with over 130 colors
 [List of colors](https://github.com/Havoc925/DJS-Easy-Color/blob/master/test/colors.txt) 
 # Example
 ```javascript
 const EasyColor = require("djs-easy-color")
 
-console.log(EasyColor.getRGB('blue')) //#0000FF
-console.log(EasyColor.getHEX('blue')) //(0,0,255)
+EasyColor.getRGB('blue') //#0000FF
+EasyColor.getHEX('blue') //(0,0,255)
 
-console.log(EasyColor.getRandomHEX()) //Returns random HEX value
-console.log(EasyColor.getRandomRGB()) //Returns random RGB value
+EasyColor.getRandomHEX() //Returns random HEX value
+EasyColor.getRandomRGB() //Returns random RGB value
+
+EasyColor.getColor(TYPE, COLOR) //Returns RGB or HEX value for color
+EasyColor.getRandomColor(TYPE) //Returns random RGB or HEX value
+
 ```
