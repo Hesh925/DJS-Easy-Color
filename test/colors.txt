@@ -119,7 +119,7 @@ gray
 dimgray
 lightslategray
 slategray
-darkslategrayB
+darkslategray
 black
 cornsilk
 blanchedalmond

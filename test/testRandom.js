@@ -1,7 +1,6 @@
 const color = require('../src/main.js')
-const times = 100
+const times = 130
 
 for (i = 0; i < times; i++) {
-    console.log(color.getRandomHEX())
+    console.log(`${i}, HEX: ${color.getRandomColor("HEX")}, RGB: ${color.getRandomColor("RGB")}`);
 }
-//console.log(color.getRandomRGB())
