@@ -18,13 +18,7 @@ Makes getting HEX and RGB values for colors easy with over 130 colors
 ```javascript
 const EasyColor = require("djs-easy-color")
 
-EasyColor.getRGB('blue') //#0000FF
-EasyColor.getHEX('blue') //(0,0,255)
-
-EasyColor.getRandomHEX() //Returns random HEX value
-EasyColor.getRandomRGB() //Returns random RGB value
-
 EasyColor.getColor(TYPE, COLOR) //Returns RGB or HEX value for color
 EasyColor.getRandomColor(TYPE) //Returns random RGB or HEX value
-
+EasyColor.getRandomGen(TYPE) //Returns randomly generated color with HEX or RGB value
 ```
