@@ -1,6 +1,12 @@
 const jsonFile = require('../../listofcolors.json')
+/** Get HEX
+ * Gets HEX value for color on color list
+ * @param {string} color name of color to get value for
+ * @returns {string} Color
+ * @deprecated use getColor()
+ */
 module.exports = (color) => {
     var colorname = color.toLowerCase()
-    if (jsonFile.hasOwnProperty(colorname)) return jsonFile[colorname]['HEX'];
+    if (Object.prototype.hasOwnProperty.call(jsonFile, colorname)) return jsonFile[colorname]['HEX'];
     else return null;
 }

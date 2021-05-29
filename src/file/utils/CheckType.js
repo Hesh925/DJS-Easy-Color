@@ -8,7 +8,7 @@ module.exports = (type) => {
             return "RGB"
         } else return null
     } else {
-        return null
         console.log("[EASY_COLOR][RANDOM_COLOR] TYPE not defined");
+        return null
     }
 }

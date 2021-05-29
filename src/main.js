@@ -3,7 +3,6 @@ exports.getRandomHEX = require('./file/HEX/randomHEX')
 exports.getRGB = require('./file/RGB/getRGB')
 exports.getRandomRGB = require('./file/RGB/randomRGB')
 
-//REWRITE
 exports.getColor = require('./file/getColor')
 exports.getRandomColor = require('./file/getRandomColor')
 exports.getRandomGen = require('./file/getRandomGen')

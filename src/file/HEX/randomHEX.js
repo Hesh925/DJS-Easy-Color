@@ -1,6 +1,13 @@
+/* eslint-disable no-plusplus, no-mixed-operators, no-bitwise*/
 const jsonFile = require('../../listofcolors.json')
-module.exports = (color) => {
-    let k, n = 0;
+
+/** Get Random HEX
+ * Gets Random HEX value for color on color list
+ * @deprecated use getRandomColor()
+ */
+module.exports = () => {
+    let k = 0;
+    let n = 0;
     JSON.stringify(jsonFile, (key, value) => (key && ++n || value));
     n *= Math.random();
     JSON.stringify(jsonFile, (key, value) => (key && --n | 0 || (k = key) || value));
