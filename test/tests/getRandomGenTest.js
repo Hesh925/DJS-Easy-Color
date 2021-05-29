@@ -1,4 +1,4 @@
-const color = require('../src/main.js')
+const color = require('../../src/main.js')
 const times = 100
 
 let i
