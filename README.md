@@ -5,7 +5,6 @@
 </p>
     <br />
     <p>
-<a href="https://github.com/Havoc925/DJS-Easy-Color"><img src="https://github.com/Havoc925/DJS-Easy-Color/actions/workflows/Test_get_color.yml/badge.svg" /></a>
 <a href="https://github.com/Havoc925/DJS-Easy-Color"><img src="https://badge.fury.io/js/djs-easy-color.svg" /></a>
 <a href="https://deepscan.io/dashboard#view=project&tid=10962&pid=17363&bid=395840"><img src="https://deepscan.io/api/teams/10962/projects/17363/branches/395840/badge/grade.svg" alt="DeepScan grade"></a>
   </p>
