@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "testall": "node ./test/test.js",
-    "testrandom": "node ./test/testRandom.js"
+    "getColorTest": "node ./test/tests/getColorTest.js",
+    "getRandomColorTest": "node ./test/tests/getRandomColorTest.js",
+    "getRandomGenTest": "node ./test/tests/getRandomGenTest.js"
   },
   "repository": {
     "type": "git",

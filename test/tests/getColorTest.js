@@ -1,4 +1,4 @@
-const color = require('../src/main.js')
+const color = require('../../src/main.js')
 const readline = require('readline');
 const fs = require('fs');
 
