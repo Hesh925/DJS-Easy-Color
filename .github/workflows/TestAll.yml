@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  Get Color: #Color Test
+  get_color: #Color Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,7 +22,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm run getColorTest
     
-  Get Random Color: #Random color test
+  get_random_color: #Random color test
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -36,7 +36,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm run getRandomColorTest
     
-  Generate Random Color: #Random color gen test
+  generate_random_color: #Random color gen test
     runs-on: ubuntu-latest
     strategy:
       matrix:
