@@ -28,9 +28,10 @@ jobs:
         node-version: [10.x, 12.x, 14.x, 15.x]
     steps:
     - name: Random Color - Node ${{ matrix.node-version }}
-      #uses: actions/setup-node@v2
+      uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+    - run: ls
     - run: npm ci
     - run: npm run getRandomColorTest
     
@@ -41,7 +42,7 @@ jobs:
         node-version: [10.x, 12.x, 14.x, 15.x]
     steps:
     - name: Random Gen - Node ${{ matrix.node-version }}
-      #uses: actions/setup-node@v2
+      uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
