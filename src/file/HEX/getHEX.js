@@ -6,7 +6,9 @@ const jsonFile = require('../../listofcolors.json')
  * @deprecated use getColor()
  */
 module.exports = (color) => {
-    var colorname = color.toLowerCase()
-    if (Object.prototype.hasOwnProperty.call(jsonFile, colorname)) return jsonFile[colorname]['HEX'];
-    else return null;
+    if(color !== undefined) {
+        var colorname = color.toLowerCase()
+        if (Object.prototype.hasOwnProperty.call(jsonFile, colorname)) return jsonFile[colorname]['HEX'];
+        else throw new TypeError(`Color '${colorname}' does not exsist in list`)
+    }
 }

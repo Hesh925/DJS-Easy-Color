@@ -10,7 +10,7 @@ function getRGB() {
     var R = rValue(0, 255)
     var G = rValue(0, 255)
     var B = rValue(0, 255)
-    return (`${R},${G},${B}`)
+    return [R, G, B]
 }
 /** Random Gen
  * Get randomly generated color
@@ -24,10 +24,7 @@ function getRGB() {
                 return getRGB()
             }
             if (cType === "HEX") {
-                var RGB = (getRGB()).split(",")
-                var R = Number(RGB[0])
-                var G = Number(RGB[1])
-                var B = Number(RGB[2])
+                let [R, G, B] = getRGB()
                 return rgbHex(R, G, B)
             }
         }
