@@ -1,7 +1,7 @@
-const color = require('../../src/main.js')
-const times = 100
+const color = require("../../src/main.js");
+const times = 100;
 
-let i
+let i;
 for (i = 0; i < times; i++) {
-    console.log(`${i}, HEX: ${color.getRandomGen("HEX")}`)
+	console.log(`${ i }, HEX: ${ color.getRandomGen("HEX") }`);
 }
